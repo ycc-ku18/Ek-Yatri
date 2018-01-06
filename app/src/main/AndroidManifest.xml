@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.buildup.pkg20180104125943" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="io.buildup.pkg20180104125943.ui.BungeeMenuItem1FilterActivity"
+            android:label="@string/bungeeMenuItem1FilterActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.ParaglidingMenuItem1FilterActivity"
+            android:label="@string/paraglidingMenuItem1FilterActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.RaftingMenuItem1FilterActivity"
+            android:label="@string/raftingMenuItem1FilterActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.MountainBikingFilterActivity"
+            android:label="@string/mountainBikingFilterActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.MainActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.AdventureTourismActivity"
+            android:label="@string/adventureTourismActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.BungeeMenuItem1Activity"
+            android:label="@string/bungeeMenuItem1Activity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.BungeeMenuItem1DetailActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.ParaglidingMenuItem1Activity"
+            android:label="@string/paraglidingMenuItem1Activity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.ParaglidingMenuItem1DetailActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.RaftingMenuItem1Activity"
+            android:label="@string/raftingMenuItem1Activity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.RaftingMenuItem1DetailActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.MountainBikingActivity"
+            android:label="@string/mountainBikingActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.MountainBikingDetailActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.UltalightActivity"
+            android:label="@string/ultalightActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.ZipliningActivity"
+            android:label="@string/zipliningActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.RockClimbingActivity"
+            android:label="@string/rockClimbingActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.CanyoningActivity"
+            android:label="@string/canyoningActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.JungleSafariActivity"
+            android:label="@string/jungleSafariActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.IteniaryInformationActivity"
+            android:label="@string/iteniaryInformationActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.TilichotrekActivity"
+            android:label="@string/tilichotrekActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.TilichotrekFormFormActivity"
+            android:label="@string/tilichotrekFormFormActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.ContactActivity"
+        />
+        <activity android:name="io.buildup.pkg20180104125943.ui.EkYatriMainActivity"
+            android:label="@string/ekYatriMainActivity"
+            android:theme="@style/AppTheme.Tab">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

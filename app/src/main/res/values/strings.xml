@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">Ek-Yatri</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="bungeeMenuItem1FilterActivity">Bungee</string>
+    <string formatted="false" name="paraglidingMenuItem1FilterActivity">Paragliding</string>
+    <string formatted="false" name="raftingMenuItem1FilterActivity">Rafting</string>
+    <string formatted="false" name="mountainBikingFilterActivity">Mountain Biking</string>
+    <string formatted="false" name="adventureTourismActivity">Adventure Tourism</string>
+    <string formatted="false" name="bungeeMenuItem1Activity">Bungee</string>
+    <string formatted="false" name="paraglidingMenuItem1Activity">Paragliding</string>
+    <string formatted="false" name="raftingMenuItem1Activity">Rafting</string>
+    <string formatted="false" name="mountainBikingActivity">Mountain Biking</string>
+    <string formatted="false" name="ultalightActivity">Ultalight</string>
+    <string formatted="false" name="zipliningActivity">Zip lining</string>
+    <string formatted="false" name="rockClimbingActivity">Rock Climbing</string>
+    <string formatted="false" name="canyoningActivity">Canyoning</string>
+    <string formatted="false" name="jungleSafariActivity">Jungle Safari</string>
+    <string formatted="false" name="iteniaryInformationActivity">Iteniary Information</string>
+    <string formatted="false" name="tilichotrekActivity">tilicho trek</string>
+    <string formatted="false" name="tilichotrekFormFormActivity"></string>
+    <string formatted="false" name="ekYatriMainActivity">Ek-Yatri</string>
+	
+	<!-- Navigation Titles -->
+    <string name="mainmenu_entry0">main</string>
+    <string name="mainmenu_entry1">Adventure Tourism</string>
+    <string name="mainmenu_entry2">Contact</string>
+    <string name="mainmenu_entry3">Iteniary Information</string>
+</resources>
+
